@@ -7,15 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Models\Categoria.cs" />
-    <Compile Remove="Models\Estado.cs" />
-    <Compile Remove="Models\Funcionario.cs" />
-    <Compile Remove="Models\LinhaProcesso.cs" />
-    <Compile Remove="Models\Prioridade.cs" />
-    <Compile Remove="Models\Processo.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
